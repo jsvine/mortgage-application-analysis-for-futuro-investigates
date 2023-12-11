@@ -1,0 +1,62 @@
+variable,translation,comparison
+Intercept,Intercept,n/a
+race_ethn_hl,Race/Ethnicity: Hispanic/Latino,White
+race_ethn_black,Race/Ethnicity: Black,White
+race_ethn_asian,Race/Ethnicity: Asian,White
+race_ethn_native,Race/Ethnicity: Native,White
+race_ethn_pacific_islander,Race/Ethnicity: Pacific Islander,White
+race_ethn_missing,Race/Ethnicity: Missing,White
+race_missing,Race Missing,Race Listed
+ethn_missing,Ethnicity Missing,Ethnicity Listed
+ethn_observed,"Ethnicity ""Observed""","Ethnicity not ""Observed"""
+race_missing:ethn_missing,Race *and* Ethnicity Missing,Race or Ethnicity Listed
+sex_is_female,Sex: Female,Sex: Male
+sex_missing_or_both,Sex: Missing/Both,Sex: Male
+age_lt_25,Age: <25,Age: 35–54
+age_25_34,Age: 25–34,Age: 35–54
+age_45_54,Age: 45–54,Age: 35–54
+age_55_64,Age: 55–64,Age: 35–54
+age_65_plus,Age: 65+,Age: 35–54
+age_missing,Age: Missing,Age: 35–54
+has_coapplicant,Coapplicant: Present,Coapplicant: None or Missing
+income_log10,log10(Income),[numerical]
+loan_amount_log10,log10(Loan Amount),[numerical]
+dti_cat_mm_manageable,Debt-to-income: Manageable,Debt-to-income: Healthy
+dti_cat_mm_unmanageable,Debt-to-income: Unmanageable,Debt-to-income: Healthy
+dti_cat_mm_struggling,Debt-to-income: Struggling,Debt-to-income: Healthy
+dti_cat_manageable,Debt-to-income: Manageable,Debt-to-income: Healthy
+dti_cat_unmanageable,Debt-to-income: Unmanageable,Debt-to-income: Healthy
+dti_cat_struggling,Debt-to-income: Struggling,Debt-to-income: Healthy
+dti_cat_most_struggling,Debt-to-income: Most Struggling,Debt-to-income: Healthy
+combined_loan_to_value_ratio,Loan-to-value ratio,[numerical]
+term_lt_30y,Mortgage term: <30 years,Mortgage term: =30 years
+term_gt_30y,Mortgage term: >30 years,Mortgage term: =30 years
+credit_model_simple_equifax,Credit model: Equifax,Credit model: TransUnion
+credit_model_simple_experian,Credit model: Experian,Credit model: TransUnion
+credit_model_simple_multiple,Credit model: Multiple,Credit model: TransUnion
+credit_model_simple_other,Credit model: Other,Credit model: TransUnion
+credit_model_simple_missing,Credit model: Missing,Credit model: TransUnion
+num_decisions_1000,"Lender decisions / 1,000",[numerical]
+aus_detailed_no,Underwriting system: Not Desktop,Underwriting system: Desktop
+aus_detailed_missing,Underwriting system: Missing,Underwriting system: Desktop
+aus_detailed_total,Underwriting system: TOTAL,Underwriting system: Desktop
+aus_detailed_gus,Underwriting system: GUS,Underwriting system: Desktop
+aus_detailed_lp,Underwriting system: LP,Underwriting system: Desktop
+aus_detailed_other,Underwriting system: Other,Underwriting system: Desktop
+aus_coarse_desktop_no,Underwriting system: Not Desktop,Underwriting system: Desktop
+aus_coarse_missing,Underwriting system: Missing,Underwriting system: Desktop
+lender_type_cu,Lender type: Credit union,Lender type: Bank
+lender_type_ind,Lender type: Ind. mortgage co.,Lender type: Bank
+lender_type_na,Lender type: Unavailable,Lender type: Bank
+tract_whiteness_q1,Tract whiteness: 0%–25%,Tract whiteness: 75–100%
+tract_whiteness_q2,Tract whiteness: 25%–50%,Tract whiteness: 75–100%
+tract_whiteness_q3,Tract whiteness: 50%–75%,Tract whiteness: 75–100%
+tract_income_ratio_low,Tract income: <50% of metro,Tract income: 80%–120% of metro
+tract_income_ratio_moderate,Tract income: 50%–80% of metro,Tract income: 80%–120% of metro
+tract_income_ratio_upper,Tract income: 120%+ of metro,Tract income: 80%–120% of metro
+pop_total_county_log10,log10(County Population),[numerical]
+activity_year_2019,Activity year: 2019,Activity year: 2018
+activity_year_2020,Activity year: 2020,Activity year: 2018
+activity_year_2021,Activity year: 2021,Activity year: 2018
+activity_year_2022,Activity year: 2022,Activity year: 2018
+apor,Average Prime Offer Rate,[numerical]
